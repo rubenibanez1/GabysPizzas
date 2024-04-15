@@ -295,8 +295,8 @@ main h4{
     width: auto;
     text-align: start;
     background-color: #d8d5d0;
-    margin: 30px 200px 0 200px;
-    padding: 20px;
+    margin: 30px 100px 0 100px;
+    padding: 10px;
 }
 .terminos_y_ayuda{
     color: white;
@@ -476,6 +476,17 @@ footer h3{
 
 
 /********************! media querry ***************************/
+@media screen and (max-width: 1060px){
+    .terminos_condiciones{
+        justify-content: space-between;
+        height: 100%;
+        flex-wrap: nowrap;
+        background-color: #ffffff;
+        margin-bottom: 30px;
+    }
+}
+
+
 @media screen and (max-width: 1076px){
     .hero h1{
         font-size: 20px;
@@ -557,6 +568,13 @@ footer h3{
 }
 
 @media screen and (max-width: 799px){
+    .terminos_condiciones div{
+        border: 0.5px rgb(255, 255, 255) solid;
+        height: auto;
+        width: auto;
+        margin: 30px 100px 0 100px;
+        padding: 20px;
+    }
     .promo_container{
         width: 90%;
         height: 90%;
@@ -617,6 +635,14 @@ footer h3{
     }
 }
 @media screen and (max-width: 678px){
+    .terminos_condiciones div{
+        border: 0.5px rgb(255, 255, 255) solid;
+        height: auto;
+        width: auto;
+        margin: 30px 20px 0 20px;
+        padding: 20px;
+    }
+
     /* SERVICIOS */
     .servicio{
         padding-top: 10px;
@@ -666,6 +692,14 @@ footer h3{
 }
 
 @media screen and (max-width: 491px ){
+    .terminos_condiciones div{
+        border: 0.5px rgb(255, 255, 255) solid;
+        height: auto;
+        width: auto;
+        margin: 30px 20px 0 20px;
+        padding: 20px;
+        font-size: 15px;
+    }
     .titulo{
         font-size: 35px;
         }
@@ -712,6 +746,14 @@ footer h3{
 }
 
 @media screen and (max-width: 391px ){
+    .terminos_condiciones div{
+        border: 0.5px rgb(255, 255, 255) solid;
+        height: auto;
+        width: auto;
+        margin: 30px 20px 0 20px;
+        padding: 20px;
+        font-size: 12px;
+    }
     /* tarjeta */
     .gustos{
         padding: 10px;
