@@ -485,7 +485,7 @@ footer h3{
         grid-template-columns: repeat(5, 1fr);
     }
     .img-1{
-        grid-row: span 1;
+        grid-row: span 2;
     }
     .img-2{
         grid-column: span 2;
