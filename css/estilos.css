@@ -676,6 +676,10 @@ footer {
     font-size: 23px;
     padding: 10px; } }
 
+@media screen and (max-width: 350px) {
+  .servicios {
+    padding: none; } }
+
 main .formulario {
   text-align: center;
   margin: 10px 500px;
