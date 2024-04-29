@@ -21,14 +21,16 @@
 }
 
 /*? -------------- HEADER -------------------------- */
-.navbar-color{
+
+/* .navbar-color{
     background-color: var(--gris);
-}
+} */
+/*! en header */
 .logo{
     width: 140px;
 }
-
-
+/* !---------------- */
+/* !general*/
 .boton {
     background-color: #000000;
     color: white;
@@ -42,7 +44,6 @@
     background-color: #fc0303;
     color: white;
 }
-
 .boton-nav {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
@@ -78,14 +79,17 @@
     margin: 1px;
     border-color: white;
 }
-.titulo{
+/* estaba de mas
+    .titulo{
     font-size: 65px;
-}
-
+} */
+/* !--------------- */
 /*?-------------- MAIN -----------------------------*/
+/* !main */
 main{
     background-color: white; 
 }
+/* !!!!!! */
 .frescura{
     color: white;
     align-items: center;
@@ -120,7 +124,9 @@ main{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* !saque frescura 2 y 3 y lo deje solo como frescura */
 
+/* !frescura */
 .formulario{
     text-align: center;
     margin: 10px 500px;
@@ -128,8 +134,9 @@ main{
     display: inline-block;
     margin-bottom: 100px;
 }
+/* !----------------- */
 
-
+/* !main */
 .gustos{
     background-color: white;
     padding: 40px;
@@ -150,10 +157,14 @@ main{
     -moz-box-shadow: 4px 3px 11px -1px rgba(0,0,0,0.63);
     margin: 3px;
 }
+/* !----------------- */
+/* !genereal */
 .gustos-color:hover{
     border: solid rgba(255, 255, 255, 0.363);
 }
+/* !!----------- */
 
+/* !main */
 .gustos div p{
     padding: 0px 0px 10px 0px;
     text-align: center;
@@ -168,7 +179,8 @@ main{
     margin-top: 2px;
     margin: 2px;
 }
-
+/* !----------------- */
+/*? no existe h2 aca */
 .gustos div h2{
     margin-bottom: 20px;
     font-size: 15px;
@@ -177,13 +189,14 @@ main{
     padding: 0;
     text-align: center;
 }
+
+/* !main */
 .gustos-color a{
     font-size: 15px;
     border-radius: 10px;
     margin-bottom: 0px;
 }
-
-
+/* !main */
 /* subtitulo de promociones */
 .promociones h2{
     background-color:  #171614;
@@ -191,17 +204,19 @@ main{
     text-align: center;
     font-size: 50px;
     display: block;
-    margin-bottom: 10px;
-    
-    
+    margin-bottom: 10px; 
 }
+/* !---------- */
 /* logo de whatsapp con link */
+/* !general */
 .fixed a img{
     width: 150px;
     position: fixed;
     bottom: 15px;
-    right: 10px
+    right: 10px  
 }
+/* !!!!----- */
+/* !main */
 .promo_container{
     display: flex;
     flex-wrap: wrap;
@@ -209,16 +224,14 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     width: 90%;
-    height: 500px;
+    height: 100%;
     background-position: center;
     font-size: 60px; 
     border-radius: 40px;
     align-items: center;
     margin-bottom: 10px;
     margin-left: 20px;
-    
 }
-
 .promo_container_general {
     display: flex;
     justify-content: space-around;
@@ -235,12 +248,14 @@ main{
     margin: 20px;
     flex-wrap: wrap;
 }
+/* !------------ */
+/* ! generales */
 .tamaño-img img{
     width: 100%;
     height: 300px;
     object-fit: cover;
-
 }
+
 
 .promo_container h3{
     font-size: 20px;
@@ -249,7 +264,7 @@ main{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 10px 10px 10px 10px;
 }
-
+/* !!!!!!---------- */
 /* corregi la distancia del boton porque me quedaba mas abajo por tener mas */
 .promo_correction-1{
     margin-top: 52px;
@@ -334,7 +349,7 @@ main h4{
 
 /* ------------------------------------------- */
 /* Iniciar sesión */
-
+/* !agregado a formulario */
 .formulario{
     display: block;
     padding: 40px;
@@ -348,7 +363,7 @@ main h4{
 .formulario div{
     padding: 2px;
 }
-
+/* !---------------- */
 /* SERVICIOS */
 .servicio{
     display: flex;
@@ -699,13 +714,13 @@ footer h3{
         padding: 30px;
     }
     .gustos div{
-        height: 280px;
+        height: 292px;
         width: 175px;
         padding: 0px;
     }
     .gustos div img{
         width: 170px;
-        height: 200px;
+        height: 210px;
     }
     .gustos div p{
         font-size: 13px;
