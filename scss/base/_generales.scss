@@ -1,14 +1,12 @@
 //base para el proyecto, se ponen todo lo que se aplican a diferentes lugares del proyecto, clases, tipografia, etiquetas para parrafos o enlaces, botones que reutilizo, class de boostrap aplicada por mi para modificar.
 //El guion bajo no permite saber que no es el documento Scss principal
 
-/* paleta de colores */
-:root {
-    --azul: #0808DC;
-    --azul_claro: #7C5FE0;
-    --gris: #ECE9E9;
-    --rojo: #FC0303;
-    --gris_oscuro: #727272;
-}
+/* VARIABLES */
+
+//!VARIABLES
+$color-primario: white ;
+$color-secundario: #FC0303 ;
+$color-terciario:#0808DC;
 
 /* etiqueta es pisada por la clase,la clase es picada por el id, el id es pisada por el inline */
 /* NO APLICAR STYLE*/
