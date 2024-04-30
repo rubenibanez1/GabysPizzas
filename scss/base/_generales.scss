@@ -4,7 +4,8 @@
 /* VARIABLES */
 
 //!VARIABLES
-$color-primario: white ;
+
+$color-primario: rgb(255, 255, 255) ;
 $color-secundario: #FC0303 ;
 $color-terciario:#0808DC;
 
@@ -29,7 +30,7 @@ $color-terciario:#0808DC;
     border-radius: 10px;
     margin-left: 2px;
     &:hover{
-        background-color: #FC0303;
+        background-color: $color-secundario;
         color: white;
         margin: 1px;
 }
