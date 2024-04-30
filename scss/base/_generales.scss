@@ -59,9 +59,8 @@ $color-terciario:#0808DC;
 }
 //boton de carrusel
 .boton-carousel{
-    
-    color: white;
-    border-color: black;
+    color: rgb(255, 255, 255);
+    background-color: #2727df;
     &:hover {
         background-color: #FC0303;
         color: white;

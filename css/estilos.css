@@ -45,7 +45,7 @@
 
 .boton-carousel {
   color: white;
-  border-color: black; }
+  background-color: #2727df; }
   .boton-carousel:hover {
     background-color: #FC0303;
     color: white;
@@ -191,7 +191,6 @@ main {
 
 .terminos_condiciones {
   justify-content: space-between;
-  height: 100vh;
   flex-wrap: wrap;
   background-color: #ffffff;
   margin-bottom: 40px;
@@ -210,7 +209,7 @@ main {
       color: white;
       margin: 1px;
       text-decoration: red;
-      border-radius: 3px;
+      border-radius: 10px;
       display: inline-block;
       padding: 2px; }
 
@@ -247,7 +246,7 @@ main {
     text-align: center; }
     .servicio div img {
       height: 320px;
-      width: 200px;
+      width: 230px;
       object-fit: cover;
       margin: 5px 5px 5px 5px;
       margin-bottom: 10px; }
@@ -466,7 +465,7 @@ footer {
 
 @media screen and (max-width: 709px) {
   .titulo {
-    font-size: 45px; } }
+    font-size: 38px; } }
 
 @media screen and (max-width: 709px) {
   .gustos div p {
@@ -606,14 +605,13 @@ footer {
 
 @media screen and (max-width: 491px) {
   .titulo {
-    font-size: 35px; } }
+    font-size: 30px; } }
 
 @media screen and (max-width: 491px) {
   /* tarjeta */
   .gustos {
     padding: 30px; }
     .gustos div {
-      height: 292px;
       width: 175px;
       padding: 0px; }
       .gustos div img {
@@ -627,10 +625,8 @@ footer {
     font-size: 30px; } }
 
 @media screen and (max-width: 491px) {
-  .gustos-color a {
-    font-size: 12px;
-    border-radius: 30px;
-    margin-bottom: 0px; } }
+  .gustos div p {
+    font-size: 12px; } }
 
 @media screen and (max-width: 491px) {
   .grid_galeria {
@@ -657,8 +653,18 @@ footer {
     grid-column: span 2; } }
 
 @media screen and (max-width: 450px) {
-  .frescura p {
-    font-size: 20px; } }
+  .frescura div div p {
+    font-size: 30px;
+    margin: 0px; } }
+
+@media screen and (max-width: 402px) {
+  .acerca_de_nosotros div p {
+    font-size: 15px;
+    padding: none; } }
+
+@media screen and (max-width: 398px) {
+  .titulo {
+    font-size: 25px; } }
 
 @media screen and (max-width: 391px) {
   .terminos_condiciones div {
@@ -691,7 +697,7 @@ footer {
 
 @media screen and (max-width: 379px) {
   .titulo {
-    font-size: 5vw; } }
+    font-size: 20px; } }
 
 @media screen and (max-width: 379px) {
   .promo_container {
@@ -700,7 +706,7 @@ footer {
     padding: 10px; } }
 
 @media screen and (max-width: 379px) {
-  .acerca_de_nosotros {
+  .acerca_de_nosotros div p {
     font-size: 10px;
     padding: none; } }
 
@@ -725,7 +731,12 @@ footer {
     padding: none; } }
 
 @media screen and (max-width: 350px) {
-  .frescura p {
+  .frescura div div p {
+    font-size: 23px;
+    margin: 5px 5px; } }
+
+@media screen and (max-width: 350px) {
+  .frescura div div p {
     font-size: 23px;
     padding: 10px; } }
 

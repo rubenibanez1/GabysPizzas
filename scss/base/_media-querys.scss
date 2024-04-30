@@ -75,7 +75,7 @@
     }
 }
 @media screen and (max-width: 1060px){
-    .frescura{
+    .frescura {
         p{
             font-size: 45px;
         }
@@ -99,13 +99,13 @@
                 width: 300px;
                 object-fit: cover;
 
-                h5 {
-                    padding: 50px;
-                    text-align: center;
-                    color: black;
-                    font-style: italic;
-                    font-size: 20px;
-                    padding: 10px;
+            h5 {
+                padding: 50px;
+                text-align: center;
+                color: black;
+                font-style: italic;
+                font-size: 20px;
+                padding: 10px;
                 }
             }
         }
@@ -200,7 +200,7 @@
 
 @media screen and (max-width: 709px){
     .titulo{
-    font-size: 45px;
+        font-size: 38px;
     }
 }
 @media screen and (max-width: 709px){    
@@ -389,7 +389,7 @@
     }
 @media screen and (max-width: 491px ){
     .titulo{
-        font-size: 35px;
+        font-size: 30px;
     }
 } 
 @media screen and (max-width: 491px ){
@@ -397,7 +397,6 @@
     .gustos{
         padding: 30px;
         div{
-            height: 292px;
             width: 175px;
             padding: 0px;
             img{
@@ -419,11 +418,11 @@
 }
 
 @media screen and (max-width: 491px ){
-    .gustos-color {
-        a{
-            font-size: 12px;
-            border-radius: 30px;
-            margin-bottom: 0px;
+    .gustos {
+        div {
+            p {
+                font-size: 12px;
+            }
         }
     }
 }
@@ -462,11 +461,34 @@
 
 @media screen and (max-width: 450px ){
     .frescura{
-        p{
-            font-size: 20px;
+        div{
+            div{
+                p{
+                    font-size: 30px;
+                    margin: 0px;
+                }
+            }
         }
+    }
 }
+
+@media screen and (max-width: 402px ){
+    .acerca_de_nosotros{
+        div{
+            p{
+                font-size: 15px;
+                padding: none;
+            }
+        }
+    }
 }
+@media screen and (max-width: 398px ){
+    .titulo{
+        font-size: 25px;
+    }
+}
+
+
 @media screen and (max-width: 391px ){
     .terminos_condiciones{ 
         div{
@@ -493,6 +515,9 @@
         }
     }
 }
+
+
+
 @media screen and (max-width: 379px ){
     .gustos {
         div{
@@ -507,10 +532,11 @@
         }
     }
 }
+    
 @media screen and (max-width: 379px ){
-    .titulo{
-        font-size: 5vw;
-        }
+    .titulo {
+        font-size: 20px;
+    }
 }
 @media screen and (max-width: 379px ){
     .promo_container{
@@ -521,8 +547,12 @@
 }
 @media screen and (max-width: 379px ){
     .acerca_de_nosotros{
-        font-size: 10px;
-        padding: none;
+        div{
+            p{
+                font-size: 10px;
+                padding: none;
+            }
+        }
     }
 }
 @media screen and (max-width: 379px ){
@@ -557,14 +587,31 @@
 
 @media screen and (max-width: 350px ){
     .frescura{
-        p{
-            font-size: 23px;
-            padding: 10px;
+        div{
+            div{
+                p{
+                    font-size: 23px;
+                    margin: 5px 5px;
+                }
+            }
         }
+    }
 }
+@media screen and (max-width: 350px ){
+    .frescura{
+        div{
+            div{
+                p{
+                    font-size: 23px;
+                    padding: 10px;
+                }
+            }
+        }
+    }
 }
 @media screen and (max-width: 350px ){
     .servicio{
         padding: none;
     }
 }
+
