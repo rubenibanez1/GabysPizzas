@@ -267,39 +267,104 @@
     }
 }
 @media screen and (max-width: 645px){
-        .frescura{
-            p{
-                font-size: 30px;
-            }
+    .frescura{
+        p{
+            font-size: 30px;
         }
+    }
 }
 
 
-    @media screen and (max-width: 645px){
+@media screen and (max-width: 645px){
     .img-2{
         grid-column: span 2;
     }
 }
-    @media screen and (max-width: 645px){
+@media screen and (max-width: 645px){
     .img-3{
         grid-column: span 2;
     }
 }
-    @media screen and (max-width: 645px){
+@media screen and (max-width: 645px){
     .img-4 {
         grid-column: span 2;
     }
 }
-    @media screen and (max-width: 645px){
+@media screen and (max-width: 645px){
     .img-5 {
         grid-column: span 3;
     }
 }
 }
 
-
-
-
+@media screen and (max-width: 645px){
+    main{
+        .formulario{
+            height: 100vh;
+            text-align: center;
+            margin: 10px 10px;
+            color: rgb(0, 0, 0);
+            display: inline-block;
+            display: block;
+            padding: 40px;
+            flex-wrap: wrap;
+            background-color: white;
+            border: 2px;
+            text-align: start;
+            font-size: 25px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            justify-content: center;
+            align-items: center;
+            div{
+                padding: 2px;  
+                }
+            }
+        }
+}
+@media screen and (max-width: 589px){
+    main{
+        .formulario{
+            height: 100vh;
+            text-align: center;
+            margin: 10px 10px;
+            color: rgb(0, 0, 0);
+            display: inline-block;
+            display: block;
+            padding: 40px;
+            flex-wrap: wrap;
+            background-color: white;
+            border: 2px;
+            text-align: start;
+            font-size: 22px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px ;
+            }
+        }
+    }       
+    @media screen and (max-width: 495px){
+        main{
+            .formulario{
+                height: 100vh;
+                text-align: center;
+                margin: 10px 10px;
+                color: rgb(0, 0, 0);
+                display: inline-block;
+                display: block;
+                padding: 40px;
+                flex-wrap: wrap;
+                background-color: white;
+                border: 2px;
+                text-align: start;
+                font-size: 20px;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                justify-content: center;
+                align-items: center;
+                margin-top: 50px ;
+                }
+            }
+        } 
 @media screen and (max-width: 491px ){
     .terminos_condiciones {
         div{
