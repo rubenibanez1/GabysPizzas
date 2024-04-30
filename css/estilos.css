@@ -234,7 +234,6 @@ main {
     padding: 20px; }
 
 .servicio {
-  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -474,6 +473,11 @@ footer {
     font-size: 15px; }
   .promociones h2 {
     font-size: 30px; } }
+
+@media screen and (max-width: 697px) {
+  .servicio {
+    height: none;
+    justify-content: center; } }
 
 @media screen and (max-width: 678px) {
   .terminos_condiciones div {
@@ -726,7 +730,7 @@ footer {
     padding: 10px; } }
 
 @media screen and (max-width: 350px) {
-  .servicios {
+  .servicio {
     padding: none; } }
 
 .formulario {
