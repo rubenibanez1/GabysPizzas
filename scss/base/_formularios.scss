@@ -1,5 +1,5 @@
 .formulario{
-        height: 100vh;
+        //height: 100vh;
         text-align: center;
         margin: 10px 10px;
         color: rgb(0, 0, 0);
@@ -7,17 +7,14 @@
         display: block;
         padding: 40px;
         flex-wrap: wrap;
-        //background-image: url(../img/USUARIO.png);
         background-repeat: no-repeat;   
         border: 2px;
-        text-align: start;
         font-size: 15px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         justify-content: center;
-        align-items: center;
         div{
             padding: 2px;
-            }
+        }
 }
 
 body{
@@ -27,3 +24,35 @@ body{
         }
     }
 }
+//!formulario de contacto por cotización
+main{
+    .contacto-container {
+        justify-content: center;
+        align-items: center;
+        display: block;
+        flex-wrap: wrap;
+        text-align: start;
+        font-size: 15px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        .contacto {
+            background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)),
+            url(../img/imagendepizzaconfondonegro.jpg) no-repeat center center;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding: 45px 45px 20px;
+            color: white;
+            text-align: center;
+                label {
+                    display: block; /* esto es para que el label se sobreponga a la caja de texto */
+                    font-weight: bold;
+
+                    div {
+                        margin-bottom: 15px; /* esto los separara un poco */
+                    }
+                }    
+                }
+            }
+    }
