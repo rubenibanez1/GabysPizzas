@@ -106,10 +106,7 @@
     border-radius: 5px; }
 
 .animate__animated .animate__hinge {
-  animation-duration: 5s; }
-  .animate__animated .animate__hinge:root {
-    animation-duration: 800ms;
-    animation-delay: 0.9s; }
+  animation-duration: 10s; }
 
 /* tamaño de logo de whatsapp */
 .fixed a img {

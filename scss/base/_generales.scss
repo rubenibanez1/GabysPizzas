@@ -134,13 +134,10 @@ $color-terciario:#0808DC;
     }
 }
 }
+//!ver porque no pude cambiarle el tiempo
 .animate__animated{
         .animate__hinge{
-            animation-duration:  5s;
-            &:root {
-                animation-duration: 800ms;
-                animation-delay:  0.9s;
-            }
+            animation-duration:  10s;
         }
 }
 
