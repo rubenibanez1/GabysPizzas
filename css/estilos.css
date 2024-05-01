@@ -105,9 +105,6 @@
     border-color: #eb9f9f;
     border-radius: 5px; }
 
-.animate__animated .animate__hinge {
-  animation-duration: 10s; }
-
 /* tamaño de logo de whatsapp */
 .fixed a img {
   width: 150px;
@@ -746,11 +743,6 @@ footer {
   .grid_galeria {
     width: 80%;
     padding: none; } }
-
-@media screen and (max-width: 350px) {
-  .frescura div div p {
-    font-size: 23px;
-    margin: 5px 5px; } }
 
 @media screen and (max-width: 350px) {
   .frescura div div p {
