@@ -451,13 +451,18 @@
         grid-column: span 2;
     }
 }
-@media screen and (max-width: 491px ){
+@media screen and (max-width: 491px ) {
     .img-5 {
         grid-column: span 2;
     }
 }
-
-
+@media screen and (max-width: 491px ) {
+    .acerca_de_nosotros {
+        div {
+            font-size: 15px;
+        }
+    }
+}
 
 @media screen and (max-width: 450px ){
     .frescura{
@@ -487,6 +492,12 @@
         font-size: 25px;
     }
 }
+
+
+
+
+
+
 
 
 @media screen and (max-width: 391px ){
@@ -539,16 +550,16 @@
     }
 }
 @media screen and (max-width: 379px ){
-    .promo_container{
+    .promo_container {
         width: 90%;
         height: 90%;
         padding: 10px;
     }
 }
 @media screen and (max-width: 379px ){
-    .acerca_de_nosotros{
-        div{
-            p{
+    .acerca_de_nosotros {
+        div {
+            p {
                 font-size: 10px;
                 padding: none;
             }

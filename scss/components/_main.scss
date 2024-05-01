@@ -107,6 +107,8 @@ main {
         text-align: start;
         margin: 30px 100px 0 100px;
         padding: 10px;
+        transition-property: background-color;
+        transition-duration: 0.2s;
         &:hover{
             background-color: #fc0303;
             color: white;

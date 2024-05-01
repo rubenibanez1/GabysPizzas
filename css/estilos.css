@@ -17,11 +17,13 @@
   text-decoration: none;
   padding: 8px;
   border-radius: 10px;
-  margin-left: 2px; }
+  margin-left: 2px;
+  transition-property: background-color;
+  transition-duration: 0.2s; }
   .boton:hover {
-    background-color: #FC0303;
+    background-color: red;
     color: white;
-    margin: 1px; }
+    margin: px; }
 
 .boton-nav {
   background-color: #ffffff;
@@ -30,7 +32,9 @@
   text-decoration: none;
   padding: 8px;
   border-radius: 10px;
-  margin-left: 2px; }
+  margin-left: 2px;
+  transition-property: background-color;
+  transition-duration: 0.3s; }
   .boton-nav:hover {
     background-color: #FC0303;
     color: white;
@@ -45,7 +49,9 @@
 
 .boton-carousel {
   color: white;
-  background-color: #2727df; }
+  background-color: #2727df;
+  transition-property: background-color;
+  transition-duration: 0.2s; }
   .boton-carousel:hover {
     background-color: #FC0303;
     color: white;
@@ -89,13 +95,21 @@
   text-decoration: none;
   font-size: 15px;
   color: white;
-  padding-top: 0.5px; }
+  padding-top: 0.5px;
+  transition-property: background-color;
+  transition-duration: 0.3s; }
   .terminos_y_condiciones a:hover {
     background-color: #FC0303;
     color: white;
     margin: 3px;
     border-color: #eb9f9f;
     border-radius: 5px; }
+
+.animate__animated .animate__hinge {
+  animation-duration: 5s; }
+  .animate__animated .animate__hinge:root {
+    animation-duration: 800ms;
+    animation-delay: 0.9s; }
 
 /* tamaño de logo de whatsapp */
 .fixed a img {
@@ -203,7 +217,9 @@ main {
     width: auto;
     text-align: start;
     margin: 30px 100px 0 100px;
-    padding: 10px; }
+    padding: 10px;
+    transition-property: background-color;
+    transition-duration: 0.2s; }
     .terminos_condiciones a:hover {
       background-color: #fc0303;
       color: white;
@@ -652,6 +668,10 @@ footer {
   .img-5 {
     grid-column: span 2; } }
 
+@media screen and (max-width: 491px) {
+  .acerca_de_nosotros div {
+    font-size: 15px; } }
+
 @media screen and (max-width: 450px) {
   .frescura div div p {
     font-size: 30px;
@@ -753,14 +773,13 @@ footer {
   display: block;
   padding: 40px;
   flex-wrap: wrap;
-  background-color: white;
+  background-repeat: no-repeat;
   border: 2px;
   text-align: start;
   font-size: 15px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   justify-content: center;
-  align-items: center;
-  font-size: 30px; }
+  align-items: center; }
   .formulario div {
     padding: 2px; }
 

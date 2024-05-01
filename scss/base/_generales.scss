@@ -29,10 +29,12 @@ $color-terciario:#0808DC;
     padding: 8px;
     border-radius: 10px;
     margin-left: 2px;
+    transition-property: background-color;
+    transition-duration: 0.2s;
     &:hover{
-        background-color: $color-secundario;
+        background-color: red;
         color: white;
-        margin: 1px;
+        margin: px;
 }
 }
 .boton-nav{
@@ -43,6 +45,8 @@ $color-terciario:#0808DC;
     padding: 8px;
     border-radius: 10px;
     margin-left: 2px;
+    transition-property: background-color;
+    transition-duration: 0.3s;
     &:hover{
         background-color:#FC0303;
         color: white;
@@ -61,6 +65,8 @@ $color-terciario:#0808DC;
 .boton-carousel{
     color: rgb(255, 255, 255);
     background-color: #2727df;
+    transition-property: background-color;
+    transition-duration: 0.2s;
     &:hover {
         background-color: #FC0303;
         color: white;
@@ -117,19 +123,26 @@ $color-terciario:#0808DC;
     font-size: 15px;
     color: white;
     padding-top: 0.5px;
+    transition-property: background-color;
+    transition-duration: 0.3s;
         &:hover{
             background-color: #FC0303;
             color: white;
             margin: 3px;
             border-color: rgb(235, 159, 159);
             border-radius: 5px;
-
     }
 }
 }
-
-
-
+.animate__animated{
+        .animate__hinge{
+            animation-duration:  5s;
+            &:root {
+                animation-duration: 800ms;
+                animation-delay:  0.9s;
+            }
+        }
+}
 
 /* tamaño de logo de whatsapp */
 .fixed {
