@@ -1,5 +1,5 @@
 .formulario{
-        //height: 100vh;
+        height: auto;
         text-align: center;
         margin: 10px 10px;
         color: rgb(0, 0, 0);
@@ -49,7 +49,7 @@ body{
             padding: 45px 45px 20px;
             display: block;
             //background-color: rgba(255, 255, 255, 0.11);
-            width: 300px;
+            width: 320px;
             margin: 0 auto;
             background-color: #fdfdfd23;
             color: white;
@@ -64,7 +64,7 @@ body{
 }
     
 textarea {
-    width: 85%;
+    width: 78%;
     padding: 5px;
     resize: vertical;
     font-size: 14px;

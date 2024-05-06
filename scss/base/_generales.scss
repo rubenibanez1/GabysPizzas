@@ -5,7 +5,7 @@
 
 //!VARIABLES
 
-$color-primario: rgb(255, 255, 255) ;
+$color-primario:rgb(255, 255, 255) ;
 $color-secundario: #FC0303 ;
 $color-terciario:#0808DC;
 
@@ -145,4 +145,7 @@ $color-terciario:#0808DC;
             right: 10px
         }
     }
+}
+footer{
+    height: 100vh;
 }

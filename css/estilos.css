@@ -3,6 +3,7 @@
 /* etiqueta es pisada por la clase,la clase es picada por el id, el id es pisada por el inline */
 /* NO APLICAR STYLE*/
 /*! reset del navegador */
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
 * {
   /* margen */
   margin: 0;
@@ -198,13 +199,15 @@ main {
     flex-wrap: wrap; }
 
 .terminos_condiciones {
+  height: 100%;
   justify-content: space-between;
   flex-wrap: wrap;
   background-color: #ffffff;
   margin-bottom: 40px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 13px;
-  margin: 10px 40px 10px 40px; }
+  margin: 50px 50px 4px 40px;
+  font-size: 20px; }
   .terminos_condiciones a {
     border: 0.5px white solid;
     height: auto;
@@ -229,11 +232,10 @@ main {
   height: 100%;
   flex-wrap: wrap;
   margin-bottom: 0px;
-  background-image: url();
   background-size: cover;
   background-attachment: fixed;
   padding: 40px 40px 40px 40px;
-  font-size: 13px; }
+  font-size: 30px; }
   .acerca_de_nosotros div {
     border: 0.5px white solid;
     height: auto;
@@ -249,7 +251,7 @@ main {
   padding: 40px;
   margin-bottom: 40px; }
   .servicio div {
-    height: 350px;
+    height: 100vh;
     width: 280px;
     margin-top: 10px;
     margin-bottom: 80px;
@@ -485,7 +487,6 @@ footer {
 
 @media screen and (max-width: 697px) {
   .servicio {
-    height: none;
     justify-content: center; } }
 
 @media screen and (max-width: 678px) {
@@ -754,6 +755,7 @@ footer {
     padding: none; } }
 
 .formulario {
+  height: auto;
   text-align: center;
   margin: 10px 10px;
   color: black;
@@ -792,7 +794,7 @@ body main h4 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 45px 45px 20px;
     display: block;
-    width: 300px;
+    width: 320px;
     margin: 0 auto;
     background-color: #fdfdfd23;
     color: white;
@@ -804,8 +806,9 @@ body main h4 {
       font-weight: bold; }
 
 textarea {
-  width: 85%;
+  width: 78%;
   padding: 5px;
   resize: vertical;
   font-size: 14px;
   line-height: 1.5; }
+
